@@ -79,6 +79,11 @@ header .metier {
     margin-top: -5px;
 }
 
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
 
 /*****************************************
  CONTENU PRINCIPAL DU SITE
