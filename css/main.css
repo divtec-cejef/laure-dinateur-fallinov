@@ -99,7 +99,9 @@ header nav ul li a.actif {
 /*****************************************
  CONTENU PRINCIPAL DU SITE
 ******************************************/
-
+main {
+    padding: 0 5%;
+}
 
 
 /*****************************************
@@ -130,3 +132,33 @@ footer nav ul li a img {
 footer nav ul li a:hover img {
     filter: grayscale(0);
 }
+/*****************************************
+ PAGE INFOS
+******************************************/
+.page-infos .photo-laure {
+    max-width: 150px;
+    border-radius: 50%;
+
+    display: block;
+    margin: 0 auto;
+}
+
+.page-infos h1 {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
