@@ -172,3 +172,22 @@ footer nav img:hover {
     margin-right: 30px;
     border-radius: 50%;
 }
+/*****************************************
+ PAGE CONTACT
+******************************************/
+.page-contact .contacts {
+    list-style-type: none;
+    padding: 0 0 0 10px;
+}
+
+.page-contact .contacts li {
+    margin-bottom: .5em;
+}
+
+.page-contact .contacts li a {
+    padding-left: 25px;
+    background-image: url("../images/phone.png");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 0 -1px;
+}
