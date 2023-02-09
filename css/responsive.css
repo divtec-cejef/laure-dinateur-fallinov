@@ -1,0 +1,48 @@
+/* Pour les écrans >= 480px */
+@media only screen and (min-width: 480px) {
+    /* Page infos */
+    .page-infos main {
+        max-width: 550px;
+        margin: 0 auto;
+    }
+    .page-infos h1 {
+        text-align: left;
+    }
+    .page-infos .photo-laure {
+        float: left;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    /* Page contact */
+    .page-contact .container-infos {
+        display: flex;
+        gap: 20px;
+    }
+
+    .page-contact .liste-contacts {
+        min-width: 220px;
+    }
+}
+
+/* Pour les écrans >= 660px */
+@media only screen and (min-width: 660px) {
+    /* Page index */
+    .page-index .realisations li {
+        flex-basis: calc(100% / 3);
+        flex-grow: 3;
+    }
+}
+
+/* Pour les écrans >= 910px */
+@media only screen and (min-width: 910px) {
+    main {
+        max-width: 910px;
+        margin: auto;
+    }
+    /* Page index */
+    .page-index .realisations li {
+        flex-basis: calc(100% / 4);
+        flex-grow: 4;
+    }
+}

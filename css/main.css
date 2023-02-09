@@ -91,10 +91,14 @@ header nav ul li a {
     font-weight: bold;
 }
 
-header nav ul li a.actif {
+header nav ul li a.actif,
+header nav ul li a:hover {
     color: #2EC4B6;
 }
 
+header nav [href="index.html"] {
+    display: none;
+}
 
 /*****************************************
  CONTENU PRINCIPAL DU SITE
@@ -146,8 +150,26 @@ footer nav ul li a:hover img {
 .page-infos h1 {
     text-align: center;
 }
+/*****************************************
+ PAGE INDEX
+******************************************/
+.page-index .realisations {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap; /* permet le retour à la ligne */
+}
 
+.page-index .realisations li {
+    padding: 0 2.5% 20px;
+    flex-basis: 50%;
+    flex-grow: 2;
+}
 
+.page-index .realisations figure {
+    margin: 0;
+}
 
 
 
