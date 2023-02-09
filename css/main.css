@@ -167,11 +167,51 @@ footer nav ul li a:hover img {
     flex-grow: 2;
 }
 
-.page-index .realisations figure {
-    margin: 0;
+.page-index .realisations a {
+    color: #011627;
 }
 
+.page-index .realisations figure {
+    margin: 0;
+    background-color: #e7e9eb;
+    transition: all 900ms linear;
+    transform-style: preserve-3d;
+}
 
+.page-index .realisations figure:hover {
+    filter: grayscale(1);
+    transform: rotateY(180deg);
+}
+
+.page-index .realisations figcaption {
+    padding: 10px;
+    font-size: 1rem;
+   /*min-height: calc(2em * 1.5 + 20px);*/
+}
+
+/*****************************************
+ PAGE CONTACT
+******************************************/
+.page-contact .contacts {
+    list-style-type: none;
+    padding: 0;
+}
+
+.page-contact .contacts li {
+    margin-bottom: .5em;
+}
+
+.page-contact .contacts li a {
+    padding-left: 30px;
+    background-image: url("../images/phone.png");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 6px 1px;
+}
+/* https://www.w3schools.com/css/css_attribute_selectors.asp */
+.page-contact .contacts li [href^="mailto:"] {
+    background-image: url("../images/mail.png");
+}
 
 
 
