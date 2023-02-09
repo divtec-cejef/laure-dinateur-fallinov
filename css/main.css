@@ -174,12 +174,18 @@ footer nav ul li a:hover img {
 .page-index .realisations figure {
     margin: 0;
     background-color: #e7e9eb;
-    transition: all 900ms linear;
-    transform-style: preserve-3d;
+    transition: filter 300ms linear;
 }
 
 .page-index .realisations figure:hover {
     filter: grayscale(1);
+}
+
+.page-index .realisations figure img {
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+}
+.page-index .realisations figure:hover img {
     transform: rotateY(180deg);
 }
 
